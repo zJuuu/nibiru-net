@@ -8,7 +8,7 @@
   "daemon_name": "nibiru",
   "node_home": "$HOME/.nibid",
   "genesis": {
-    "genesis_url": "https://rpc.testnet-1.nibiru.fi/genesis"
+    "genesis_url": "https://github.com/zJuuu/nibiru-net/blob/master/genesis.json"
   },
   "codebase": {
     "git_repo": "github.com/NibiruChain/nibiru",
