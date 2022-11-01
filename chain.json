@@ -5,7 +5,7 @@
   "pretty_name": "testnet",
   "chain_id": "nibiru-testnet-1",
   "bech32_prefix": "nibi",
-  "daemon_name": "nibiru",
+  "daemon_name": "nibirud",
   "node_home": "$HOME/.nibid",
   "genesis": {
     "genesis_url": "https://github.com/zJuuu/nibiru-net/blob/master/genesis.json"
