@@ -1,0 +1,69 @@
+{
+  "chain_name": "nibiru-testnet-1",
+  "status": "live",
+  "network_type": "testnet",
+  "pretty_name": "testnet",
+  "chain_id": "nibiru-testnet-1",
+  "bech32_prefix": "nibi",
+  "daemon_name": "nibiru",
+  "node_home": "$HOME/.nibid",
+  "genesis": {
+    "genesis_url": "https://rpc.testnet-1.nibiru.fi/genesis"
+  },
+  "codebase": {
+    "git_repo": "github.com/NibiruChain/nibiru",
+    "recommended_version": "v0.15.0",
+    "compatible_versions": [
+      "v0.15.0"
+    ],
+    "binaries": {
+      "linux/amd64": "https://github.com/NibiruChain/nibiru/releases/download/v0.15.0/nibiru_linux_amd64.tar.gz",
+      "linux/arm64": "https://github.com/NibiruChain/nibiru/releases/download/v0.15.0/nibiru_linux_arm64.tar.gz",
+      "darwin/amd64": "https://github.com/NibiruChain/nibiru/releases/download/v0.15.0/nibiru_darwin_amd64.tar.gz",
+      "darwin/arm64": "https://github.com/NibiruChain/nibiru/releases/download/v0.15.0/nibiru_darwin_arm64.tar.gz"
+    }
+  },
+  "peers": {
+    "seeds": [
+      {
+        "id": "37713248f21c37a2f022fbbb7228f02862224190",
+        "address": "35.243.130.198:26656"
+      },
+      {
+        "id": "ff59bff2d8b8fb6114191af7063e92a9dd637bd9",
+        "address": "35.185.114.96:26656"
+      },
+      {
+        "id": "cb431d789fe4c3f94873b0769cb4fce5143daf97",
+        "address": "35.227.113.63:26656"
+      }
+    ],
+    "persistent_peers": [
+      {
+        "id": "37713248f21c37a2f022fbbb7228f02862224190",
+        "address": "35.243.130.198:26656"
+      },
+      {
+        "id": "ff59bff2d8b8fb6114191af7063e92a9dd637bd9",
+        "address": "35.185.114.96:26656"
+      },
+      {
+        "id": "cb431d789fe4c3f94873b0769cb4fce5143daf97",
+        "address": "35.227.113.63:26656"
+      }
+    ]
+  },
+  "apis": {
+    "rpc": [
+      {
+        "address": "https://t-nibiru.rpc.utsa.tech"
+      }
+    ],
+    "rest": [
+      {
+        "address": "https://t-nibiru.api.utsa.tech",
+        "provider": "utsa"
+      }
+    ]
+  }
+}
